@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  align-items: center;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+header a {
+  position: absolute;
+  left: 20px;
+}
+
+header img {
+  height: 40px;
+}
+
+body {
+  font-family: Roboto, arial, sans-serif;
+}
+
+.menu-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 15px 5px 0px 5px;
+  font-size: x-large;
+  font-family: shrikhand;
+}
+
+.hearts {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 15px;
+}
+
+.hearts i.fa-solid {
+  display: none;
+}
+
+.hearts:hover {
+  cursor: pointer;
+}
+
+.hearts:hover i.fa-regular {
+  display: none;
+}
+
+.hearts:hover i.fa-solid {
+  display: block;
+  color: transparent;
+  background: radial-gradient(circle at top right, #9356dc, #ff79da 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#footer {
+  background-color: #4e4d4d;
+}
+
+.footer-content img {
+  width: 100px;
+  color: white;
+}
+
+.footer-content {
+  padding: 15px 10px;
+}
+
+.footer-menu {
+  color: white;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu .logo {
+  font-family: shrikhand;
+  font-weight: 200;
+}
+
+/*# sourceMappingURL=global.css.map */
